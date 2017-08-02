@@ -24,6 +24,7 @@ public class ElixirAdapter implements ApiAdapter<Elixir>{
 	public void setConnectionValues(Elixir api, ConnectionValues values) {
 		ElixirProfile profile = api.userOperations().getUserProfile();
 		values.setProviderUserId(profile.getSub());
+		values.setDisplayName(profile.getName());
 	}
 
 	@Override
@@ -34,6 +35,7 @@ public class ElixirAdapter implements ApiAdapter<Elixir>{
 				.setFirstName(profile.getFirstName())
 				.setLastName(profile.getLastName())
 				.setEmail(profile.getEmail())
+				.setId(profile.getSub())
 				.build();
 	}
 
