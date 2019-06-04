@@ -11,7 +11,7 @@
 
 	<groupId>org.springframework.social</groupId>
 	<artifactId>spring-social-elixir</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>Spring Social Elixir</name>
@@ -143,8 +143,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-  <scm>
-    <tag>spring-social-elixir-0.0.1</tag>
-  </scm>
 </project>
