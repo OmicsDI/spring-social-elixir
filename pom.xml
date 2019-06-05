@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 
 	<modelVersion>4.0.0</modelVersion>
@@ -12,7 +11,7 @@
 
 	<groupId>uk.ac.ebi.ddi.social</groupId>
 	<artifactId>spring-social-elixir</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<packaging>jar</packaging>
 
 	<url>https://github.com/OmicsDI/spring-social-elixir</url>
@@ -30,7 +29,7 @@
 		<connection>scm:git:github.com/OmicsDI/spring-social-elixir.git</connection>
 		<developerConnection>scm:git:git@github.com:OmicsDI/spring-social-elixir.git</developerConnection>
 		<url>https://github.com/OmicsDI/spring-social-elixir.git</url>
-		<tag>spring-social-elixir-1.0</tag>
+		<tag>spring-social-elixir-0.0.2</tag>
 	</scm>
 
 	<dependencyManagement>
