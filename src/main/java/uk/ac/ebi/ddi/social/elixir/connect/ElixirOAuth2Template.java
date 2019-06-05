@@ -1,4 +1,4 @@
-package org.springframework.social.elixir.connect;
+package uk.ac.ebi.ddi.social.elixir.connect;
 
 import org.springframework.http.HttpMethod;
 import org.springframework.http.client.ClientHttpRequest;

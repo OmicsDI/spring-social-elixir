@@ -1,7 +1,7 @@
-package org.springframework.social.elixir.security;
+package uk.ac.ebi.ddi.social.elixir.security;
 
-import org.springframework.social.elixir.api.Elixir;
-import org.springframework.social.elixir.connect.ElixirConnectionFactory;
+import uk.ac.ebi.ddi.social.elixir.api.Elixir;
+import uk.ac.ebi.ddi.social.elixir.connect.ElixirConnectionFactory;
 import org.springframework.social.security.provider.OAuth2AuthenticationService;
 
 public class ElixirAuthenticationService extends OAuth2AuthenticationService<Elixir>{

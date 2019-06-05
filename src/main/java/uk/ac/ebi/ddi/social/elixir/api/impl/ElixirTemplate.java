@@ -1,11 +1,11 @@
-package org.springframework.social.elixir.api.impl;
+package uk.ac.ebi.ddi.social.elixir.api.impl;
 
-import org.springframework.social.elixir.api.Elixir;
-import org.springframework.social.elixir.api.UserOperations;
+import uk.ac.ebi.ddi.social.elixir.api.Elixir;
+import uk.ac.ebi.ddi.social.elixir.api.UserOperations;
 import org.springframework.social.oauth2.AbstractOAuth2ApiBinding;
 import org.springframework.social.support.ClientHttpRequestFactorySelector;
 
-public class ElixirTemplate extends AbstractOAuth2ApiBinding implements Elixir{
+public class ElixirTemplate extends AbstractOAuth2ApiBinding implements Elixir {
 
 	private UserOperations userOperations;
 	

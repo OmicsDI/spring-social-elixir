@@ -1,8 +1,7 @@
-package org.springframework.social.elixir.connect;
+package uk.ac.ebi.ddi.social.elixir.connect;
 
-import org.springframework.social.elixir.api.Elixir;
-import org.springframework.social.elixir.api.impl.ElixirTemplate;
-import org.springframework.social.elixir.connect.ElixirOAuth2Template;
+import uk.ac.ebi.ddi.social.elixir.api.Elixir;
+import uk.ac.ebi.ddi.social.elixir.api.impl.ElixirTemplate;
 import org.springframework.social.oauth2.AbstractOAuth2ServiceProvider;
 
 public class ElixirServiceProvider extends AbstractOAuth2ServiceProvider<Elixir> {

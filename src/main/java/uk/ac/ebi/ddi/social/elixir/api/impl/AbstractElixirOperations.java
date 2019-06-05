@@ -1,4 +1,4 @@
-package org.springframework.social.elixir.api.impl;
+package uk.ac.ebi.ddi.social.elixir.api.impl;
 
 import org.springframework.social.MissingAuthorizationException;
 

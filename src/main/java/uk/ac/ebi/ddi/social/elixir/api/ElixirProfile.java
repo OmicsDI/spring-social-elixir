@@ -1,4 +1,4 @@
-package org.springframework.social.elixir.api;
+package uk.ac.ebi.ddi.social.elixir.api;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

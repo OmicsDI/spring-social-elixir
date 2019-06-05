@@ -1,7 +1,7 @@
-package org.springframework.social.elixir.connect;
+package uk.ac.ebi.ddi.social.elixir.connect;
 
 import org.springframework.social.connect.support.OAuth2ConnectionFactory;
-import org.springframework.social.elixir.api.Elixir;
+import uk.ac.ebi.ddi.social.elixir.api.Elixir;
 
 public class ElixirConnectionFactory extends OAuth2ConnectionFactory<Elixir> {
 

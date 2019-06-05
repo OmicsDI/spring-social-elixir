@@ -1,12 +1,12 @@
-package org.springframework.social.elixir.connect;
+package uk.ac.ebi.ddi.social.elixir.connect;
 
 import org.springframework.social.ApiException;
 import org.springframework.social.connect.ApiAdapter;
 import org.springframework.social.connect.ConnectionValues;
 import org.springframework.social.connect.UserProfile;
 import org.springframework.social.connect.UserProfileBuilder;
-import org.springframework.social.elixir.api.Elixir;
-import org.springframework.social.elixir.api.ElixirProfile;
+import uk.ac.ebi.ddi.social.elixir.api.Elixir;
+import uk.ac.ebi.ddi.social.elixir.api.ElixirProfile;
 
 public class ElixirAdapter implements ApiAdapter<Elixir>{
 
