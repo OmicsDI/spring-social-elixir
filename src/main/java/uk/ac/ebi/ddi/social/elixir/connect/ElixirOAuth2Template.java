@@ -21,8 +21,8 @@ import java.util.Map;
 
 public class ElixirOAuth2Template extends OAuth2Template{
 
-	private static String AUTHORIZE_URL = "https://perun.elixir-czech.cz/oidc/authorize";
-	private static String ACCESS_TOKEN_URL = "https://perun.elixir-czech.cz/oidc/token";
+	private static String AUTHORIZE_URL = "https://login.elixir-czech.org/oidc/authorize";
+	private static String ACCESS_TOKEN_URL = "https://login.elixir-czech.org/oidc/token";
 
 	@Override
 	public AccessGrant exchangeForAccess(String authorizationCode, String redirectUri, MultiValueMap<String, String> additionalParameters) {

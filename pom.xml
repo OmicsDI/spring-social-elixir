@@ -11,13 +11,13 @@
 
 	<groupId>uk.ac.ebi.ddi.social</groupId>
 	<artifactId>spring-social-elixir</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<url>https://github.com/OmicsDI/spring-social-elixir</url>
 
 	<name>Spring Social Elixir</name>
-	<description>Spring Social extension with connection support and an API binding for perun.elixir-czech.cz</description>
+	<description>Spring Social extension with connection support and an API binding for login.elixir-czech.org</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

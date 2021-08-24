@@ -31,7 +31,7 @@ public class UserTemplate extends AbstractElixirOperations implements UserOperat
 
 //		restTemplate.getInterceptors().add(new LoggingRequestInterceptor());
 
-		ElixirProfile user = restTemplate.getForObject(buildUri("oidcManager/userinfo"), ElixirProfile.class);
+		ElixirProfile user = restTemplate.getForObject(buildUri("oidc/userinfo"), ElixirProfile.class);
 		
 		return user;
 	}

@@ -25,5 +25,5 @@ class AbstractElixirOperations {
 		return API_URL_BASE + path;
 	}
 	
-	private static final String API_URL_BASE = "https://perun.elixir-czech.cz/oauth/rpc/json/";
+	private static final String API_URL_BASE = "https://login.elixir-czech.org/";
 }
